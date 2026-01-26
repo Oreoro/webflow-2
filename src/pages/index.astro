@@ -1,0 +1,40 @@
+---
+import MainLayout from '../layouts/main.astro';
+import LandingPage from '../components/LandingPage';
+
+const pageClass = '';
+---
+
+<MainLayout pageClass={pageClass}>
+  <LandingPage client:only="react" />
+</MainLayout>
+
+<style is:global>
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Remove default margins */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Accessibility improvements */
+  *:focus-visible {
+    outline: 2px solid #0d9488;
+    outline-offset: 2px;
+  }
+
+  /* Performance optimization - reduce motion for users who prefer it */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>

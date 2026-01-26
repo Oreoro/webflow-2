@@ -1,0 +1,101 @@
+
+
+
+
+
+
+---
+import '../../generated/fonts.css';
+import '../site-components/global.css';
+import '../styles/global.css';
+
+const { pageClass = '' } = Astro.props;
+---
+
+<html lang="en" class={pageClass}>
+<head>
+<meta charset="utf-8" />
+<link rel="icon" type="image/png" href="/favicon.ico" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="generator" content={Astro.generator} />
+
+<!-- SEO Meta Tags -->
+<title>Complete SAT Resource Kit - PKR 5,000 | Black Book, Past Papers & More</title>
+<meta name="description" content="Get all essential SAT resources in one kit for just PKR 5,000. Includes SAT Black Book, College Panda's Math Guide, actual past papers, and more. Trusted by 1400+ scorers. Instant digital access!" />
+<meta name="keywords" content="SAT resources Pakistan, SAT Black Book, College Panda SAT Math, SAT past papers, SAT prep materials, Digital SAT Pakistan, SAT books Pakistan, SAT study materials" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Complete SAT Resource Kit - Just PKR 5,000 | Pakistan" />
+<meta property="og:description" content="Everything you need to ace the SAT: Black Book, past papers, College Panda's Math Guide & more. Digital access for PKR 5,000. Trusted by top scorers!" />
+<meta property="og:image" content="/og-image.jpg" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Complete SAT Resource Kit - Just PKR 5,000 | Pakistan" />
+<meta name="twitter:description" content="Everything you need to ace the SAT: Black Book, past papers, College Panda's Math Guide & more. Digital access for PKR 5,000. Trusted by top scorers!" />
+
+<!-- Performance optimizations -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;700i&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+
+<!-- Schema.org markup for Google -->
+<script type="application/ld+json" is:inline>
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Complete SAT Resource Kit",
+  "description": "Premium SAT preparation resources including SAT Black Book, The College Panda's Math Guide, actual past papers, and comprehensive study materials",
+  "brand": {
+    "@type": "Brand",
+    "name": "Digital SAT Pakistan"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "5000",
+    "priceCurrency": "PKR",
+    "availability": "https://schema.org/InStock",
+    "url": "https://digitalsatpakistan.com"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "500"
+  }
+}
+</script>
+
+<style is:inline>
+:root {
+--heading-font: 'Playfair Display', serif;
+--body-font: 'Lato', sans-serif;
+--button-font: 'Lato', sans-serif;
+}
+</style>
+</head>
+<!-- Dark mode class injection point - will be replaced with `dark` class based on your site palette -->
+<body class="__DARK_MODE_CLASS__">
+<slot />
+</body>
+</html>
+
+<style is:global>
+/* Page-specific overrides */
+html.splash main { 
+display: flex !important; 
+}
+
+html.splash ol,
+html.splash ul { 
+padding-left: 0 !important; 
+margin: 0 !important; 
+}
+</style>
+
+
+
+
+
+
+

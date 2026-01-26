@@ -1,0 +1,83 @@
+/**
+GENERATED FILE
+
+webflow.css is generated automatically by webflow and is used to expose variables from your webflow design system in your app.
+
+Any changes to this file will be overwritten the next time your app is loaded in the workbench.
+
+In order to override any of these variables, you can redefine them in a CSS file that is imported globally after the webflow.css on your page.
+
+Font imports and @font-face declarations are in fonts.css, which should be imported before this file.
+
+You can learn more about CSS custom properties here:
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties#inheritance_of_custom_properties
+*/
+
+:root {
+  --_apps---typography--heading-font: Exo, sans-serif;
+  --_apps---typography--body-font: Exo, sans-serif;
+  --_apps---typography--button-font: Figtree, sans-serif;
+  --_apps---sizes--radius: 0.75rem;
+  --_apps---colors--background: #F7F7EB;
+  --_apps---colors--foreground: #000000;
+  --_apps---colors--card: #F7F7EB;
+  --_apps---colors--card-foreground: #000000;
+  --_apps---colors--popover: #F7F7EB;
+  --_apps---colors--popover-foreground: #000000;
+  --_apps---colors--primary: #E7D1FC;
+  --_apps---colors--primary-foreground: #000000;
+  --_apps---colors--secondary: #EEEEDD;
+  --_apps---colors--secondary-foreground: rgba(0, 0, 0, 0.6);
+  --_apps---colors--muted: #EEEEDD;
+  --_apps---colors--muted-foreground: rgba(0, 0, 0, 0.6);
+  --_apps---colors--accent: #EEEEDD;
+  --_apps---colors--accent-foreground: rgba(0, 0, 0, 0.6);
+  --_apps---colors--destructive: #F28B82;
+  --_apps---colors--border: rgba(0, 0, 0, 0.1);
+  --_apps---colors--input: rgba(0, 0, 0, 0.2);
+  --_apps---colors--ring: #E7D1FC;
+  --_apps---charts--chart-1: #F0D9FF;
+  --_apps---charts--chart-2: #D9B3FF;
+  --_apps---charts--chart-3: #E7D1FC;
+  --_apps---charts--chart-4: #B399CC;
+  --_apps---charts--chart-5: #8C66A3;
+  --_apps---sidebar--sidebar: #F7F7EB;
+  --_apps---sidebar--sidebar-foreground: #000000;
+  --_apps---sidebar--sidebar-primary: #E7D1FC;
+  --_apps---sidebar--sidebar-primary-foreground: #000000;
+  --_apps---sidebar--sidebar-accent: #EEEEDD;
+  --_apps---sidebar--sidebar-accent-foreground: rgba(0, 0, 0, 0.6);
+  --_apps---sidebar--sidebar-border: rgba(0, 0, 0, 0.2);
+  --_apps---sidebar--sidebar-ring: #E7D1FC;
+  --_apps---colors--background-dark: #000000;
+  --_apps---colors--foreground-dark: #F7F7EB;
+  --_apps---colors--card-dark: #000000;
+  --_apps---colors--card-foreground-dark: #F7F7EB;
+  --_apps---colors--popover-dark: #000000;
+  --_apps---colors--popover-foreground-dark: #F7F7EB;
+  --_apps---colors--primary-dark: #E7D1FC;
+  --_apps---colors--primary-foreground-dark: #000000;
+  --_apps---colors--secondary-dark: #000000;
+  --_apps---colors--secondary-foreground-dark: rgba(247, 247, 235, 0.6);
+  --_apps---colors--muted-dark: rgba(0, 0, 0, 0.8);
+  --_apps---colors--muted-foreground-dark: rgba(247, 247, 235, 0.6);
+  --_apps---colors--accent-dark: rgba(0, 0, 0, 0.8);
+  --_apps---colors--accent-foreground-dark: rgba(247, 247, 235, 0.6);
+  --_apps---colors--destructive-dark: #FF6B6B;
+  --_apps---colors--border-dark: rgba(247, 247, 235, 0.2);
+  --_apps---colors--input-dark: rgba(247, 247, 235, 0.1);
+  --_apps---colors--ring-dark: #E7D1FC;
+  --_apps---charts--chart-1-dark: #F0D9FF;
+  --_apps---charts--chart-2-dark: #D9B3FF;
+  --_apps---charts--chart-3-dark: #E7D1FC;
+  --_apps---charts--chart-4-dark: #B399CC;
+  --_apps---charts--chart-5-dark: #8C66A3;
+  --_apps---sidebar--sidebar-dark: #000000;
+  --_apps---sidebar--sidebar-foreground-dark: #F7F7EB;
+  --_apps---sidebar--sidebar-primary-dark: #E7D1FC;
+  --_apps---sidebar--sidebar-primary-foreground-dark: #000000;
+  --_apps---sidebar--sidebar-accent-dark: #000000;
+  --_apps---sidebar--sidebar-accent-foreground-dark: rgba(247, 247, 235, 0.6);
+  --_apps---sidebar--sidebar-border-dark: rgba(247, 247, 235, 0.1);
+  --_apps---sidebar--sidebar-ring-dark: #E7D1FC;
+}
