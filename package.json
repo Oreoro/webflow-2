@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "scripts": {
     "predev": "npx kill-port 3000 || true",
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "node init && astro dev",
+    "build": "node init && astro build",
     "preview": "astro build && wrangler dev",
     "astro": "astro",
     "cf-typegen": "wrangler types"
